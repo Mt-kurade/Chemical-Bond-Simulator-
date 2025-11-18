@@ -39,13 +39,11 @@ html, body, [class*="css"], p, div[data-testid="stMarkdownContainer"] {
     font-family: 'Times New Roman', serif !important;
 }
 
-/* 2. Headings remain PURE WHITE for emphasis */
 h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF !important;
     font-family: 'Times New Roman', serif !important;
 }
 
-/* 3. Slider Labels and Values remain PURE WHITE for emphasis */
 div[data-testid="stSlider"] label {
     color: #FFFFFF !important;
     font-family: 'Times New Roman', serif !important;
@@ -221,4 +219,5 @@ with tab2:
     """)
 
 st.markdown("---")
+
 st.caption("Made with ❤️ for STEAM-H :3 Integrating Chem + Maths through Modeling and Visualization.")
